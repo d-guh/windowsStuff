@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "python.createEnvironment.trigger": "off",
+    "pylint.args": [
+        "--disable=missing-docstring,invalid-name,too-few-public-methods,too-many-arguments,too-many-instance-attributes,too-many-locals,too-many-branches,too-many-statements,too-many-return-statements,too-many-lines,too-many-nested-blocks,trailing-whitespace,unnecessary-pass",
+        "--indent-string='    '",
+        "--max-line-length=120"
+    ]
+}
